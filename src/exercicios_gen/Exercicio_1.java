@@ -14,10 +14,12 @@ public class Exercicio_1 {
 		
 		System.out.println("Digite o valor do abono: ");
 		abono = leia.nextFloat();
+		leia.close();
 		
 		novoSalario = salario + abono;
 		
 		System.out.printf("Valor Atualizado do Salario R$%.2f", novoSalario);
+		
 	}
 
 }
