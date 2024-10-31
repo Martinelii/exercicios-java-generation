@@ -22,8 +22,8 @@ public class Exercicio_2 {
 		for(i=0;i<vetorInteiros.length;i++) { 
 			System.out.printf("\nInforme o %dº numero: ", (i+1));
 			vetorInteiros[i] = scanner.nextInt();
-			scanner.close();
 		}
+		scanner.close();
 		
 		//Exibindo elementos nos INDICES impares
 		System.out.println("\nElementos nos indices ímpares: ");
