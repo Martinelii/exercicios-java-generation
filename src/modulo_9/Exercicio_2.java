@@ -33,7 +33,7 @@ public class Exercicio_2 {
 				System.out.printf("%d ",vetorInteiros[i]);
 			}
 		}
-		
+
 		//Exibindo todos os ELEMENTOS pares
 		System.out.println("\nElementos pares: ");
 		for(i=0;i<vetorInteiros.length;i++) {
