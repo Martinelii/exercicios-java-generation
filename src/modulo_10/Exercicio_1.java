@@ -21,6 +21,8 @@ public class Exercicio_1 {
 			System.out.println("Informe uma Cor: ");
 			cores.add(scanner.nextLine());
 		}
+		
+		scanner.close();
 		//Exibindo Vetor não Ordenado
 		System.out.println("\nLista de cores: ");
 		for(String cor : cores) {
