@@ -31,9 +31,7 @@ public class Exercicio_1_Fila {
 				System.out.println("Digite o nome: ");
 				nome = scanner.next();
 				filaClientes.add(nome);
-				
 				System.out.println("Cliente adicionado!!\n");
-				
 			}else if(opcao == 2) {
 				System.out.println("Lista de Clientes: \n");
 				listagem(filaClientes);
@@ -44,9 +42,7 @@ public class Exercicio_1_Fila {
 					filaClientes.poll();
 					System.out.println("Cliente Chamado!!");
 					System.out.println("\nFila atual: \n");
-					for(String cliente : filaClientes){
-						System.out.println(cliente);
-					}
+					listagem(filaClientes);
 				}
 			}else {
 				System.out.println("Selecione Opção Valida!!");
