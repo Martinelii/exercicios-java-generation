@@ -41,7 +41,7 @@ public class Exercicio_1_Fila {
 				}
 				
 			}else if(opcao == 3){
-				if(filaClientes.poll() == null) {
+				if(filaClientes.isEmpty()) {
 					System.out.println("A fila está Vazia!!");
 				}else {
 					filaClientes.poll();
