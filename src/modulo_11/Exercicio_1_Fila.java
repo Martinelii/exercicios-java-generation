@@ -24,13 +24,13 @@ public class Exercicio_1_Fila {
 		System.out.println("Entre com a opção desejada: ");
 
 		do {
-			
 			opcao = scanner.nextInt();
 			
 			if(opcao == 1) {
 				System.out.println("Digite o nome: ");
 				nome = scanner.next();
-				filaClientes.add(nome);
+				Adicionar_Fila_Pilha.adicionar(filaClientes, nome);
+				//filaClientes.add(nome);
 				System.out.println("Cliente adicionado!!\n");
 			}else if(opcao == 2) {
 				System.out.println("Lista de Clientes: \n");

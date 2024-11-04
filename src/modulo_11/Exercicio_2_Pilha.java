@@ -29,7 +29,8 @@ public class Exercicio_2_Pilha {
 			case 1:
 				System.out.println("Digite o nome: ");
 				nomeLivro = scanner.nextLine();
-				pilhaLivros.push(nomeLivro);
+				Adicionar_Fila_Pilha.adicionar(pilhaLivros, nomeLivro);
+				//pilhaLivros.push(nomeLivro);
 				
 				System.out.println("Livro Adicionado!");
 				break;

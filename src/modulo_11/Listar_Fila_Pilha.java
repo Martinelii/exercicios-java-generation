@@ -8,7 +8,6 @@ public class Listar_Fila_Pilha {
 		for(String cliente : colecao){
 			System.out.println(cliente);
 		}
-		
 		//if( listar instanceof Queue) para diferenciar qual instancia ela é Queue Stack 
 	}
 	
