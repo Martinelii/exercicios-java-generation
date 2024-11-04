@@ -35,9 +35,7 @@ public class Exercicio_2_Pilha {
 				break;
 			case 2:
 				System.out.println("Lista de Livros: ");
-				for(String livro:pilhaLivros) {
-					System.out.println(livro);
-				}
+				Listar_Fila_Pilha.listar(pilhaLivros);
 				break;
 			case 3:
 				if(pilhaLivros.isEmpty()) {
@@ -46,9 +44,7 @@ public class Exercicio_2_Pilha {
 					pilhaLivros.pop();
 					System.out.println("Um livro retirado da pilha");
 					System.out.println("Pilha atual: ");
-					for(String livro: pilhaLivros) {
-						System.out.println(livro);
-					}
+					Listar_Fila_Pilha.listar(pilhaLivros);
 				}
 				break;
 				

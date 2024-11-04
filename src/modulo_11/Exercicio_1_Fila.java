@@ -34,7 +34,7 @@ public class Exercicio_1_Fila {
 				System.out.println("Cliente adicionado!!\n");
 			}else if(opcao == 2) {
 				System.out.println("Lista de Clientes: \n");
-				listagem(filaClientes);
+				Listar_Fila_Pilha.listar(filaClientes);
 			}else if(opcao == 3){
 				if(filaClientes.isEmpty()) {
 					System.out.println("A fila está Vazia!!");
@@ -42,7 +42,7 @@ public class Exercicio_1_Fila {
 					filaClientes.poll();
 					System.out.println("Cliente Chamado!!");
 					System.out.println("\nFila atual: \n");
-					listagem(filaClientes);
+					Listar_Fila_Pilha.listar(filaClientes);
 				}
 			}else {
 				System.out.println("Selecione Opção Valida!!");
@@ -55,11 +55,6 @@ public class Exercicio_1_Fila {
 		scanner.close();
 	}
 	
-	public static void listagem(Queue<String> listar) {
-		for(String cliente : listar){
-			System.out.println(cliente);
-		}
-		return;
-	}
+
 
 }
