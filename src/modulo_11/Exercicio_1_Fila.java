@@ -36,10 +36,7 @@ public class Exercicio_1_Fila {
 				
 			}else if(opcao == 2) {
 				System.out.println("Lista de Clientes: \n");
-				for(String cliente : filaClientes){
-					System.out.println(cliente);
-				}
-				
+				listagem(filaClientes);
 			}else if(opcao == 3){
 				if(filaClientes.isEmpty()) {
 					System.out.println("A fila está Vazia!!");
@@ -60,6 +57,13 @@ public class Exercicio_1_Fila {
 		}while(opcao != 0);
 
 		scanner.close();
+	}
+	
+	public static void listagem(Queue<String> listar) {
+		for(String cliente : listar){
+			System.out.println(cliente);
+		}
+		return;
 	}
 
 }
