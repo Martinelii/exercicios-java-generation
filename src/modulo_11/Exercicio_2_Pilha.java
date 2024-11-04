@@ -42,7 +42,8 @@ public class Exercicio_2_Pilha {
 				if(pilhaLivros.isEmpty()) {
 					System.out.println("Pilha está vazia!!");
 				}else {
-					pilhaLivros.pop();
+					Remover_Fila_Pilha.remover(pilhaLivros);
+					//pilhaLivros.pop();
 					System.out.println("Um livro retirado da pilha");
 					System.out.println("Pilha atual: ");
 					Listar_Fila_Pilha.listar(pilhaLivros);

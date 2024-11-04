@@ -39,7 +39,8 @@ public class Exercicio_1_Fila {
 				if(filaClientes.isEmpty()) {
 					System.out.println("A fila está Vazia!!");
 				}else {
-					filaClientes.poll();
+					Remover_Fila_Pilha.remover(filaClientes);
+					//filaClientes.poll();
 					System.out.println("Cliente Chamado!!");
 					System.out.println("\nFila atual: \n");
 					Listar_Fila_Pilha.listar(filaClientes);
